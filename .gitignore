@@ -6,3 +6,7 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# NOTE: do not ignore lambda handlers but type definitions
+!lambda/*.ts
+lambda/*.d.ts
